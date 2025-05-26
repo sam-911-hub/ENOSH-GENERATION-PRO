@@ -25,16 +25,16 @@ There have been challenges here and there but that has made me be strongly roote
 ];
 
 const galleryImages = [
-  { id: 'img1', src: 'https://picsum.photos/seed/gallery_A_enosh/600/400', alt: 'Enosh Generation Event 1' },
-  { id: 'img2', src: 'https://picsum.photos/seed/gallery_B_enosh/600/400', alt: 'Community Gathering' },
-  { id: 'img3', src: 'https://picsum.photos/seed/gallery_C_enosh/600/400', alt: 'Youth Ministry' },
-  { id: 'img4', src: 'https://picsum.photos/seed/gallery_D_bible/600/400', alt: 'Bible Study Session' },
-  { id: 'img5', src: 'https://picsum.photos/seed/gallery_E_animal/600/400', alt: 'Nature and Creation' },
-  { id: 'img6', src: 'https://picsum.photos/seed/gallery_F_enosh/600/400', alt: 'Fellowship Moment' },
-  { id: 'img7', src: 'https://picsum.photos/seed/gallery_G_worship/600/400', alt: 'Worship Night' },
-  { id: 'img8', src: 'https://picsum.photos/seed/gallery_H_service/600/400', alt: 'Community Service' },
-  { id: 'img9', src: 'https://picsum.photos/seed/gallery_I_hope/600/400', alt: 'Symbol of Hope' },
-  { id: 'img10', src: 'https://picsum.photos/seed/gallery_J_joy/600/400', alt: 'Joyful Gathering' },
+  { id: 'img1', src: 'https://drive.google.com/file/d/1EsJD1lyJgpcZHyHWHMbZcUrIXLjxgxRY/view?usp=drive_link', alt: 'Enosh Generation Event 1' },
+  { id: 'img2', src: 'https://drive.google.com/file/d/14UalaX2M7xM-7ldvLkNex0LH6cIqts1m/view?usp=drive_link', alt: 'Community Gathering' },
+  { id: 'img3', src: 'https://drive.google.com/file/d/1ygedFnKvoLnwLNqdzXPSxw6VvGTQyLMo/view?usp=drive_link', alt: 'Youth Ministry' },
+  { id: 'img4', src: 'https://drive.google.com/file/d/1FQTcNvL3RQpcFgKtjolEovRB2K6_sv6L/view?usp=drive_link', alt: 'Bible Study Session' },
+  { id: 'img5', src: 'https://drive.google.com/file/d/1HcJ03IJMU7ooOsR1wAW5IHuJlx4vwsrf/view?usp=drive_link', alt: 'Nature and Creation' },
+  { id: 'img6', src: 'https://drive.google.com/file/d/1NfZnKsWMlZsEaehRlk1T1wGmGEyhV2yf/view?usp=drive_link', alt: 'Fellowship Moment' },
+  { id: 'img7', src: 'https://drive.google.com/file/d/1VOj1tCPAdj41DE_yIW-wtCgArVZJiywA/view?usp=drive_link', alt: 'Worship Night' },
+  { id: 'img8', src: 'https://drive.google.com/file/d/11esh7jCxddXjRCWZvmiwFQC9mvQC2lU4/view?usp=drive_link', alt: 'Community Service' },
+  { id: 'img9', src: 'https://drive.google.com/file/d/1RIdCy_etWazRxlwrbQlxoneWXrC_DNTY/view?usp=drive_link', alt: 'Symbol of Hope' },
+  { id: 'img10', src: 'https://drive.google.com/file/d/1uKexQSFiXiu-EmjBdls0BHnv5W2Jd-7s/view?usp=drive_link', alt: 'Joyful Gathering' },
 ];
 
 
