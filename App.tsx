@@ -1,18 +1,19 @@
 import React from 'react';
 import { HashRouter, Routes, Route, Link } from 'react-router-dom';
+import './css/styles.css';
 
 const Header: React.FC = () => (
-  <header style={{borderBottom: '1px solid #eee', background: '#fff'}}>
-    <div style={{maxWidth:1100, margin:'0 auto', padding:16, display:'flex', alignItems:'center', justifyContent:'space-between'}}>
-      <div style={{fontWeight:700}}>Enosh Generation</div>
-      <nav>
-        <Link to="/" style={{marginRight:12}}>Home</Link>
-        <Link to="/ministries" style={{marginRight:12}}>Ministries</Link>
-        <Link to="/resources" style={{marginRight:12}}>Resources</Link>
-        <Link to="/events" style={{marginRight:12}}>Events</Link>
-        <Link to="/about" style={{marginRight:12}}>About</Link>
-        <Link to="/testimonials" style={{marginRight:12}}>Testimonials</Link>
-        <Link to="/giving" style={{marginRight:12}}>Giving</Link>
+  <header className="site-header">
+    <div className="container header-inner">
+      <a className="brand" href="#/">Enosh Generation</a>
+      <nav className="main-nav">
+        <Link to="/">Home</Link>
+        <Link to="/ministries">Ministries</Link>
+        <Link to="/resources">Resources</Link>
+        <Link to="/events">Events</Link>
+        <Link to="/about">About</Link>
+        <Link to="/testimonials">Testimonials</Link>
+        <Link to="/giving">Giving</Link>
         <Link to="/contact">Contact</Link>
       </nav>
     </div>
@@ -20,48 +21,84 @@ const Header: React.FC = () => (
 );
 
 const Footer: React.FC = () => (
-  <footer style={{borderTop:'1px solid #eee', marginTop:30, padding:20, color:'#666'}}>
-    <div style={{maxWidth:1100, margin:'0 auto', padding:0}}>© Enosh Generation</div>
+  <footer className="site-footer">
+    <div className="container">
+      <p>© Enosh Generation</p>
+      <p className="muted">info@enosh.org • +123 456 7890</p>
+    </div>
   </footer>
 );
 
 const HomePage: React.FC = () => (
-  <main style={{maxWidth:1100, margin:'20px auto', padding:16, fontFamily: "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial"}}>
-    <section style={{display:'flex', gap:20, alignItems:'center'}}>
-      <img src="assets/images/enosh.jpg" alt="Enosh" style={{width:300, borderRadius:6}} />
-      <div>
-        <h1>Welcome to Enosh Generation</h1>
-        <p style={{color:'#666'}}>Raising a generation that knows God • Worship, Prayer, Teachings</p>
-        <p><strong>Service Times:</strong> Sundays 9:00 AM • Wednesdays 6:00 PM</p>
+  <main className="container">
+    <section className="hero">
+      <img src="assets/images/enosh.jpg" alt="Enosh" className="hero-img" />
+      <div className="hero-text">
+        <h1>Enosh Generation</h1>
+        <p className="slogans">Raising a generation that knows God • Worship • Prayer • Teaching</p>
+        <p className="service-times"><strong>Service Times:</strong> Sundays 9:00 AM • Wednesdays 6:00 PM</p>
+        <p>
+          <Link className="btn" to="/resources">Watch Live</Link>
+          <a className="btn ghost" href="#/giving" style={{marginLeft:12}}>Give & Support</a>
+        </p>
+      </div>
+    </section>
+
+    <section className="quick-links">
+      <h2>Explore</h2>
+      <div className="grid">
+        <Link className="card" to="/ministries">Our Ministries</Link>
+        <Link className="card" to="/events">Events</Link>
+        <Link className="card" to="/resources">Resources</Link>
+        <Link className="card" to="/about">About Us</Link>
       </div>
     </section>
   </main>
 );
 
 const MinistriesPage: React.FC = () => (
-  <main style={{maxWidth:1100, margin:'20px auto', padding:16}}>
+  <main className="container">
     <h1>Ministries</h1>
-    <ul>
-      <li>Praise & Worship Ministry</li>
-      <li>Intercessory Ministry</li>
-      <li>Teaching Ministry</li>
-      <li>Hospitality Ministry</li>
-      <li>Women Affairs Ministry</li>
-    </ul>
+    <div className="ministries-grid">
+      <article className="ministry">
+        <h3>Praise & Worship Ministry</h3>
+        <p>Leading corporate worship with anointing and excellence.</p>
+      </article>
+
+      <article className="ministry">
+        <h3>Intercessory Ministry</h3>
+        <p>Standing in prayer and spiritual covering for the church and community.</p>
+      </article>
+
+      <article className="ministry">
+        <h3>Teaching Ministry</h3>
+        <p>Bible-based teaching and discipleship for all ages.</p>
+      </article>
+
+      <article className="ministry">
+        <h3>Hospitality Ministry</h3>
+        <p>Welcoming guests and creating a warm environment for fellowship.</p>
+      </article>
+
+      <article className="ministry">
+        <h3>Women Affairs Ministry</h3>
+        <p>Equipping and empowering women through mentorship and events.</p>
+      </article>
+    </div>
   </main>
 );
 
 const ResourcesPage: React.FC = () => (
-  <main style={{maxWidth:1100, margin:'20px auto', padding:16}}>
+  <main className="container">
     <h1>Resources</h1>
-    <ul>
-      <li>Live Services & Links</li>
-      <li>Morning Dew Devotions</li>
-      <li>Divinity Meets Humanity - Travailleurs</li>
-      <li>Enosh Towdah</li>
-      <li><Link to="/new-converts">New Converts Registration Form</Link></li>
-      <li><Link to="/events">Events</Link></li>
-    </ul>
+    <div className="resources-list">
+      <a className="resource-item" href="#">Live Services & Links</a>
+      <a className="resource-item" href="#">Morning Dew Devotions</a>
+      <a className="resource-item" href="#">Divinity Meets Humanity - Travailleurs</a>
+      <a className="resource-item" href="#">Enosh Towdah</a>
+      <Link className="resource-item" to="/new-converts">New Converts Registration Form</Link>
+      <Link className="resource-item" to="/events">Events</Link>
+    </div>
   </main>
 );
 
@@ -75,124 +112,130 @@ const EventsPage: React.FC = () => {
   ];
 
   return (
-    <main style={{maxWidth:1100, margin:'20px auto', padding:16}}>
+    <main className="container">
       <h1>Events</h1>
+
       <section>
         <h2>Upcoming Events</h2>
-        {upcoming.map((ev, idx) => (
-          <div key={idx} style={{border:'1px solid #f0f0f0', padding:12, borderRadius:6, marginBottom:10}}>
-            <h3 style={{margin:0}}>{ev.name} <span style={{background:'#e6f0ff', color:'#0b66ff', padding:'2px 6px', borderRadius:4, marginLeft:8, fontSize:12}}>Upcoming</span></h3>
-            <p style={{margin:'6px 0'}}><strong>Venue:</strong> {ev.venue}</p>
-            <p style={{margin:'6px 0'}}><strong>Time:</strong> {ev.time}</p>
-          </div>
-        ))}
+        <div className="event-list">
+          {upcoming.map((ev, idx) => (
+            <div key={idx} className="event-item">
+              <div className="event-header">
+                <h3 className="event-name">{ev.name}</h3>
+                <span className="pill upcoming">Upcoming</span>
+              </div>
+              <p className="event-venue"><strong>Venue:</strong> {ev.venue}</p>
+              <p className="event-time"><strong>Time:</strong> {ev.time}</p>
+            </div>
+          ))}
+        </div>
       </section>
 
       <section style={{marginTop:20}}>
         <h2>Past Events</h2>
-        {past.map((ev, idx) => (
-          <div key={idx} style={{border:'1px solid #f0f0f0', padding:12, borderRadius:6, marginBottom:10}}>
-            <h3 style={{margin:0}}>{ev.name}</h3>
-            <p style={{margin:'6px 0'}}><strong>Venue:</strong> {ev.venue}</p>
-            <p style={{margin:'6px 0'}}><strong>Time:</strong> {ev.time}</p>
-          </div>
-        ))}
+        <div className="event-list">
+          {past.map((ev, idx) => (
+            <div key={idx} className="event-item">
+              <div className="event-header">
+                <h3 className="event-name">{ev.name}</h3>
+              </div>
+              <p className="event-venue"><strong>Venue:</strong> {ev.venue}</p>
+              <p className="event-time"><strong>Time:</strong> {ev.time}</p>
+            </div>
+          ))}
+        </div>
       </section>
     </main>
   );
 };
 
 const AboutPage: React.FC = () => (
-  <main style={{maxWidth:1100, margin:'20px auto', padding:16}}>
+  <main className="container">
     <h1>About Us</h1>
     <p>Enosh Generation is committed to raising a generation that knows God through worship, prayer, teaching and compassionate outreach.</p>
   </main>
 );
 
 const ContactPage: React.FC = () => (
-  <main style={{maxWidth:1100, margin:'20px auto', padding:16}}>
-    <h1>Contact Us</h1>
-    <form>
-      <div style={{marginBottom:8}}>
-        <label>Name</label><br />
+  <main className="container contact-grid">
+    <div>
+      <h1>Contact Us</h1>
+      <p>Send us a message or find our details below.</p>
+      <form className="contact-form">
+        <label>Name</label>
         <input type="text" />
-      </div>
-      <div style={{marginBottom:8}}>
-        <label>Email</label><br />
+        <label>Email</label>
         <input type="email" />
-      </div>
-      <div style={{marginBottom:8}}>
-        <label>Message</label><br />
-        <textarea rows={4}></textarea>
-      </div>
-      <button type="submit">Send Message</button>
-    </form>
+        <label>Message</label>
+        <textarea rows={5}></textarea>
+        <button className="btn" type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <aside>
+      <h2>Contact Details</h2>
+      <p>Email: info@enosh.org</p>
+      <p>Phone: +123 456 7890</p>
+      <p>Address: Enosh Central, City</p>
+    </aside>
   </main>
 );
 
 const TestimonialsPage: React.FC = () => (
-  <main style={{maxWidth:1100, margin:'20px auto', padding:16}}>
+  <main className="container">
     <h1>Testimonials</h1>
-    <p>"Enosh changed my walk with God." — A member</p>
-    <p>"A place of genuine worship and discipleship." — Visitor</p>
+    <div className="testimonials">
+      <blockquote className="testimonial">"Enosh changed my walk with God." — A member</blockquote>
+      <blockquote className="testimonial">"A place of genuine worship and discipleship." — Visitor</blockquote>
+    </div>
   </main>
 );
 
 const GivingPage: React.FC = () => (
-  <main style={{maxWidth:1100, margin:'20px auto', padding:16}}>
+  <main className="container">
     <h1>Giving & Support</h1>
     <p>Your support helps us run ministries, outreach and events.</p>
-    <p><a href="#">Give Online</a></p>
+    <p><a className="btn" href="#">Give Online</a></p>
   </main>
 );
 
 const NewConvertsPage: React.FC = () => (
-  <main style={{maxWidth:1100, margin:'20px auto', padding:16}}>
+  <main className="container">
     <h1>New Converts Registration</h1>
-    <form>
-      <div style={{marginBottom:8}}>
-        <label>Full Name</label><br />
-        <input type="text" />
-      </div>
-      <div style={{marginBottom:8}}>
-        <label>Phone</label><br />
-        <input type="text" />
-      </div>
-      <div style={{marginBottom:8}}>
-        <label>Email</label><br />
-        <input type="email" />
-      </div>
-      <div style={{marginBottom:8}}>
-        <label>Brief Testimony</label><br />
-        <textarea rows={4}></textarea>
-      </div>
-      <button type="submit">Register</button>
+    <form className="convert-form">
+      <label>Full Name</label>
+      <input type="text" />
+      <label>Phone</label>
+      <input type="text" />
+      <label>Email</label>
+      <input type="email" />
+      <label>Brief Testimony</label>
+      <textarea rows={4}></textarea>
+      <button className="btn" type="submit">Register</button>
     </form>
   </main>
 );
 
-const App: React.FC = () => {
-  return (
-    <HashRouter>
-      <div style={{display:'flex', flexDirection:'column', minHeight:'100vh', background:'#fff', color:'#111'}}>
-        <Header />
-        <div style={{flexGrow:1}}>
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/ministries" element={<MinistriesPage />} />
-            <Route path="/resources" element={<ResourcesPage />} />
-            <Route path="/events" element={<EventsPage />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/contact" element={<ContactPage />} />
-            <Route path="/testimonials" element={<TestimonialsPage />} />
-            <Route path="/giving" element={<GivingPage />} />
-            <Route path="/new-converts" element={<NewConvertsPage />} />
-          </Routes>
-        </div>
-        <Footer />
+const App: React.FC = () => (
+  <HashRouter>
+    <div className="app-root">
+      <Header />
+      <div className="content">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/ministries" element={<MinistriesPage />} />
+          <Route path="/resources" element={<ResourcesPage />} />
+          <Route path="/events" element={<EventsPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/testimonials" element={<TestimonialsPage />} />
+          <Route path="/giving" element={<GivingPage />} />
+          <Route path="/new-converts" element={<NewConvertsPage />} />
+        </Routes>
       </div>
-    </HashRouter>
-  );
-};
+      <Footer />
+    </div>
+  </HashRouter>
+);
 
 export default App;

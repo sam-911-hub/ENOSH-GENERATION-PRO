@@ -1,37 +1,85 @@
 /* Base styles - white theme, system font */
 :root{
   --bg:#ffffff;
-  --text:#111;
-  --muted:#666;
-  --accent:#0b66ff;
+  --text:#111827; /* darker gray for text */
+  --muted:#6b7280;
+  --accent:#0b66ff; /* primary brand accent */
+  --card:#fbfcfd;
+  --border:#e6e9ee;
+  --radius:8px;
 }
 *{box-sizing:border-box}
-html,body{height:100%;margin:0;font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg);color:var(--text)}
-.container{max-width:1100px;margin:0 auto;padding:20px}
-.site-header{border-bottom:1px solid #eee;background:var(--bg)}
-.site-header .container{display:flex;align-items:center;justify-content:space-between}
-.brand{font-weight:700;text-decoration:none;color:var(--text)}
-.main-nav a{margin-left:16px;text-decoration:none;color:var(--text)}
-.hero{display:flex;gap:20px;align-items:center;padding:30px 0}
-.hero-img{width:320px;max-width:40%;height:auto;border-radius:6px}
-.hero-text h1{margin:0;font-size:28px}
-.slogans{color:var(--muted);margin:8px 0}
-.service-times{margin:8px 0}
-.btn{display:inline-block;padding:8px 14px;background:var(--accent);color:#fff;border-radius:6px;text-decoration:none}
-.btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent)}
-.quick-links .grid{display:flex;gap:12px;flex-wrap:wrap}
-.card{flex:1 1 180px;padding:16px;border:1px solid #eee;border-radius:6px;text-decoration:none;color:var(--text)}
-.ministries-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
-.ministry{padding:14px;border:1px solid #f0f0f0;border-radius:6px}
-.event-list{list-style:none;padding:0}
-.event-item{padding:12px;border:1px solid #f0f0f0;border-radius:6px;margin-bottom:10px}
-.contact-grid{display:grid;grid-template-columns:1fr 320px;gap:20px}
-.contact-form input,.contact-form textarea,.convert-form input,.convert-form textarea{width:100%;padding:8px;margin-bottom:10px;border:1px solid #ddd;border-radius:4px}
-.site-footer{border-top:1px solid #eee;padding:20px 0;margin-top:30px;color:var(--muted)}
-@media (max-width:800px){
-  .hero{flex-direction:column}
-  .hero-img{max-width:100%}
+html,body{height:100%;margin:0;font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.container{max-width:1100px;margin:0 auto;padding:28px}
+
+/* Header */
+.site-header{background:var(--bg);box-shadow:0 1px 0 rgba(16,24,40,0.03);position:sticky;top:0;z-index:40}
+.header-inner{display:flex;align-items:center;justify-content:space-between}
+.brand{font-weight:700;text-decoration:none;color:var(--text);font-size:18px}
+.main-nav a{margin-left:18px;text-decoration:none;color:var(--muted);font-weight:500}
+.main-nav a:hover{color:var(--text)}
+
+/* Hero */
+.hero{display:grid;grid-template-columns:360px 1fr;gap:28px;align-items:center;padding:36px 0}
+.hero-img{width:100%;height:auto;border-radius:10px;object-fit:cover;box-shadow:0 6px 18px rgba(11,102,255,0.08);border:1px solid var(--border)}
+.hero-text h1{margin:0;font-size:34px;letter-spacing:-0.01em}
+.slogans{color:var(--muted);margin:10px 0;font-size:16px}
+.service-times{margin:8px 0;color:var(--muted)}
+
+/* Buttons */
+.btn{display:inline-block;padding:10px 16px;background:var(--accent);color:#fff;border-radius:8px;text-decoration:none;font-weight:600;border:none;box-shadow:0 6px 18px rgba(11,102,255,0.08)}
+.btn.ghost{background:transparent;color:var(--accent);border:1px solid rgba(11,102,255,0.12);box-shadow:none}
+.btn:hover{transform:translateY(-1px);transition:all 120ms ease}
+
+/* Quick links */
+.quick-links h2{margin-top:6px}
+.grid{display:flex;gap:14px;flex-wrap:wrap}
+.card{flex:1 1 220px;padding:18px;background:var(--card);border-radius:10px;border:1px solid var(--border);text-decoration:none;color:var(--text);box-shadow:0 4px 14px rgba(16,24,40,0.03)}
+.card:hover{transform:translateY(-4px);transition:all 160ms ease}
+
+/* Ministries */
+.ministries-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:12px}
+.ministry{padding:16px;border-radius:10px;background:#fff;border:1px solid var(--border);box-shadow:0 6px 18px rgba(16,24,40,0.03)}
+.ministry h3{margin-top:0}
+
+/* Resources list */
+.resources-list{display:flex;flex-direction:column;gap:10px}
+.resource-item{display:inline-block;padding:12px 14px;border-radius:8px;border:1px solid var(--border);background:var(--card);text-decoration:none;color:var(--text);width:fit-content}
+
+/* Events */
+.event-list{display:flex;flex-direction:column;gap:12px;margin-top:12px}
+.event-item{padding:14px;border-radius:10px;border:1px solid var(--border);background:#fff;display:flex;flex-direction:column;gap:8px}
+.event-header{display:flex;align-items:center;justify-content:space-between}
+.event-name{margin:0;font-size:18px}
+.pill{font-size:12px;padding:6px 8px;border-radius:999px;background:#f3f4f6;color:var(--muted)}
+.pill.upcoming{background:rgba(11,102,255,0.08);color:var(--accent);font-weight:600}
+.event-venue,.event-time{margin:0;color:var(--muted)}
+
+/* Forms */
+input[type="text"],input[type="email"],textarea{width:100%;padding:10px;border-radius:8px;border:1px solid var(--border);background:#fff}
+label{display:block;margin-top:10px;margin-bottom:6px;color:var(--muted);font-weight:600}
+.contact-grid{display:grid;grid-template-columns:1fr 320px;gap:28px;align-items:start}
+.convert-form{max-width:640px}
+.contact-form button,.convert-form button{margin-top:10px}
+
+/* Testimonials */
+.testimonials{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.testimonial{padding:16px;border-radius:10px;background:linear-gradient(180deg,#ffffff,#fbfdff);border:1px solid var(--border)}
+
+/* Footer */
+.site-footer{border-top:1px solid var(--border);padding:22px 0;margin-top:40px;color:var(--muted)}
+
+/* Layout helpers */
+.app-root{display:flex;flex-direction:column;min-height:100vh}
+.content{flex:1}
+
+/* Responsive */
+@media (max-width:980px){
+  .hero{grid-template-columns:1fr;gap:18px}
+  .header-inner{flex-direction:column;align-items:flex-start}
+  .main-nav{margin-top:12px;display:flex;gap:12px;flex-wrap:wrap}
+}
+@media (max-width:680px){
   .contact-grid{grid-template-columns:1fr}
-  .site-header .container{flex-direction:column;align-items:start}
-  .main-nav{margin-top:10px}
+  .grid{flex-direction:column}
 }
