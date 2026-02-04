@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { SocialLinks, AppName, ContactEmail, WhatsAppNumbers } from '../constants';
 import SocialLinkIcon from './SocialLinkIcon';

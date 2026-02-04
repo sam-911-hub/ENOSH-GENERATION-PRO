@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { NavLinkItem } from '../types';
 import { PageRoutes, AppName } from '../constants';
 
@@ -22,12 +21,12 @@ const Navbar: React.FC = () => {
   const inactiveClassName = "text-brand-text-light hover:text-brand-accent transition-colors duration-300";
 
   return (
-    <nav className="bg-brand-secondary bg-opacity-80 backdrop-blur-md shadow-lg sticky top-0 z-50">
-      <div className="container mx-auto px-6 py-3">
-        <div className="flex items-center justify-between">
-          <NavLink to={PageRoutes.HOME} className="text-3xl font-bold font-heading text-brand-accent">
-            {AppName}
-          </NavLink>
+    <header className="site-header">
+      <div className="container header-inner">
+        <Link className="brand" to={PageRoutes.HOME}>
+          {AppName}
+        </Link>
+        <nav className="main-nav">
           <div className="hidden md:flex items-center space-x-6">
             {navLinks.map((link) => (
               <NavLink
@@ -51,24 +50,24 @@ const Navbar: React.FC = () => {
               <i className={`fas ${isOpen ? 'fa-times' : 'fa-bars'} text-2xl`}></i>
             </button>
           </div>
-        </div>
-        {/* Mobile Menu */}
-        <div className={`${isOpen ? 'block' : 'hidden'} md:hidden mt-3 animate-fade-in`}>
-          {navLinks.map((link) => (
-            <NavLink
-              key={link.path}
-              to={link.path}
-              onClick={() => setIsOpen(false)}
-              className={({ isActive }) => 
-                `block py-2 px-4 text-sm ${isActive ? 'text-brand-accent bg-brand-primary rounded' : 'text-brand-text-light hover:bg-brand-primary hover:text-brand-accent rounded transition-colors duration-300'}`
-              }
-            >
-              {link.label}
-            </NavLink>
-          ))}
-        </div>
+        </nav>
       </div>
-    </nav>
+      {/* Mobile Menu */}
+      <div className={`${isOpen ? 'block' : 'hidden'} md:hidden mt-3 animate-fade-in`}>
+        {navLinks.map((link) => (
+          <NavLink
+            key={link.path}
+            to={link.path}
+            onClick={() => setIsOpen(false)}
+            className={({ isActive }) => 
+              `block py-2 px-4 text-sm ${isActive ? 'text-brand-accent bg-brand-primary rounded' : 'text-brand-text-light hover:bg-brand-primary hover:text-brand-accent rounded transition-colors duration-300'}`
+            }
+          >
+            {link.label}
+          </NavLink>
+        ))}
+      </div>
+    </header>
   );
 };
 
