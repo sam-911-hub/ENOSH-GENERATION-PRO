@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const HomePage = () => (
   <main className="container">
     <section className="hero">
-      <img src="/assets/enosh.png" alt="Enosh Generation logo" className="hero-img" />
+      <img src="/assets/enosh.png.jpg" alt="Enosh Generation logo" className="hero-img" />
       <div className="hero-text">
         <h1>Enosh Generation</h1>
         <p className="slogans">Raising a generation that knows God • Worship • Prayer • Teaching</p>

@@ -77,6 +77,15 @@ html, body {
   color: var(--text);
   text-decoration: none;
   letter-spacing: -0.5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-img {
+  height: 50px;
+  width: auto;
+  display: block;
 }
 
 .main-nav {

@@ -15,7 +15,7 @@ const Navbar = () => {
       <a href="#" onClick={handleSkipLink} className="skip-link">Skip to content</a>
       <header className="site-header" role="banner">
         <div className="container header-inner">
-          <NavLink className="brand" to="/">Enosh Generation</NavLink>
+          <NavLink className="brand" to="/"><img src="/assets/enosh.png.jpg" alt="Enosh Generation" className="logo-img" /></NavLink>
           <nav className="main-nav" aria-label="Primary navigation">
             <NavLink to="/" className={({ isActive }: any) => isActive ? 'active' : ''}>Home</NavLink>
             <NavLink to="/ministries" className={({ isActive }: any) => isActive ? 'active' : ''}>Ministries</NavLink>
