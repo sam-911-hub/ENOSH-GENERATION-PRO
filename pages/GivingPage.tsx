@@ -1,6 +1,4 @@
-import React from 'react';
-
-const GivingPage: React.FC = () => (
+const GivingPage = () => (
   <main className="container">
     <h1>Giving & Support</h1>
     <p>Your support helps us run ministries, outreach and events.</p>

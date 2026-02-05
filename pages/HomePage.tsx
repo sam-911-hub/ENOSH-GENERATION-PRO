@@ -1,7 +1,6 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
-const HomePage: React.FC = () => (
+const HomePage = () => (
   <main className="container">
     <section className="hero">
       <img src="assets/images/enosh.jpg" alt="Enosh" className="hero-img" />

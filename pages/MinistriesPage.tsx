@@ -1,6 +1,4 @@
-import React from 'react';
-
-const MinistriesPage: React.FC = () => (
+const MinistriesPage = () => (
   <main className="container">
     <h1>Ministries</h1>
     <div className="ministries-grid">

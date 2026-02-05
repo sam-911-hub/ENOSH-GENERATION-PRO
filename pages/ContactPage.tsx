@@ -1,6 +1,4 @@
-import React from 'react';
-
-const ContactPage: React.FC = () => (
+const ContactPage = () => (
   <main className="container contact-grid">
     <div>
       <h1>Contact Us</h1>

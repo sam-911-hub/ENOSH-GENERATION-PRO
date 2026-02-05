@@ -1,6 +1,4 @@
-import React from 'react';
-
-const EventsPage: React.FC = () => {
+const EventsPage = () => {
   const upcoming = [
     { name: 'Praise Night', venue: 'Enosh Auditorium', time: '25 March 2026, 6:00 PM' },
     { name: 'Women\'s Conference', venue: 'City Conference Hall', time: '10 April 2026, 9:00 AM' }

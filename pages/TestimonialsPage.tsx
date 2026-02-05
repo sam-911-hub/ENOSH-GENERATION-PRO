@@ -1,6 +1,4 @@
-import React from 'react';
-
-const TestimonialsPage: React.FC = () => (
+const TestimonialsPage = () => (
   <main className="container">
     <h1>Testimonials</h1>
     <div className="testimonials">

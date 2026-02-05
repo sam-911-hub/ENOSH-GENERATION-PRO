@@ -1,7 +1,6 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
-const ResourcesPage: React.FC = () => (
+const ResourcesPage = () => (
   <main className="container">
     <h1>Resources</h1>
     <div className="resources-list">
