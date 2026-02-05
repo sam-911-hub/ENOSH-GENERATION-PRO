@@ -5,14 +5,12 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 import HomePage from './pages/HomePage';
-import MinistriesPage from './pages/MinistriesPage';
-import ResourcesPage from './pages/ResourcesPage';
-import EventsPage from './pages/EventsPage';
-import AboutPage from './pages/AboutPage';
-import ContactPage from './pages/ContactPage';
-import TestimonialsPage from './pages/TestimonialsPage';
-import GivingPage from './pages/GivingPage';
-import NewConvertsPage from './pages/NewConvertsPage';
+import UpcomingEventsPage from './pages/UpcomingEventsPage';
+import AboutUsPage from './pages/AboutUsPage';
+import PhotoGalleryPage from './pages/PhotoGalleryPage';
+import LinksPage from './pages/LinksPage';
+import VolunteerSupportPage from './pages/VolunteerSupportPage';
+import OnlineResourcesPage from './pages/OnlineResourcesPage';
 import FAQPage from './pages/FAQPage';
 
 const App = () => (
@@ -22,14 +20,12 @@ const App = () => (
       <main id="main-content" role="main" tabIndex={-1} className="content">
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/ministries" element={<MinistriesPage />} />
-          <Route path="/resources" element={<ResourcesPage />} />
-          <Route path="/events" element={<EventsPage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/testimonials" element={<TestimonialsPage />} />
-          <Route path="/giving" element={<GivingPage />} />
-          <Route path="/new-converts" element={<NewConvertsPage />} />
+          <Route path="/upcoming-events" element={<UpcomingEventsPage />} />
+          <Route path="/about-us" element={<AboutUsPage />} />
+          <Route path="/photo-gallery" element={<PhotoGalleryPage />} />
+          <Route path="/links" element={<LinksPage />} />
+          <Route path="/volunteer-support" element={<VolunteerSupportPage />} />
+          <Route path="/online-resources" element={<OnlineResourcesPage />} />
           <Route path="/faq" element={<FAQPage />} />
         </Routes>
       </main>
