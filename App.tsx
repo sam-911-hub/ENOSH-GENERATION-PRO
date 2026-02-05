@@ -19,7 +19,7 @@ const App: React.FC = () => (
   <HashRouter>
     <div className="app-root">
       <Navbar />
-      <div className="content">
+      <main id="main-content" role="main" tabIndex={-1} className="content">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/ministries" element={<MinistriesPage />} />
@@ -31,7 +31,7 @@ const App: React.FC = () => (
           <Route path="/giving" element={<GivingPage />} />
           <Route path="/new-converts" element={<NewConvertsPage />} />
         </Routes>
-      </div>
+      </main>
       <Footer />
     </div>
   </HashRouter>

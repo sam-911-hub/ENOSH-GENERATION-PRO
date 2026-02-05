@@ -21,53 +21,41 @@ const Navbar: React.FC = () => {
   const inactiveClassName = "text-brand-text-light hover:text-brand-accent transition-colors duration-300";
 
   return (
-    <header className="site-header">
-      <div className="container header-inner">
-        <Link className="brand" to={PageRoutes.HOME}>
-          {AppName}
-        </Link>
-        <nav className="main-nav">
-          <div className="hidden md:flex items-center space-x-6">
-            {navLinks.map((link) => (
-              <NavLink
-                key={link.path}
-                to={link.path}
-                className={({ isActive }) => 
-                  `${isActive ? activeClassName : inactiveClassName} font-medium text-sm uppercase tracking-wider py-2`
-                }
+    <>
+      <a href="#main-content" className="skip-link">Skip to content</a>
+      <header className="site-header" role="banner">
+        <div className="container header-inner">
+          <Link className="brand" to={PageRoutes.HOME}>
+            {AppName}
+          </Link>
+          <nav className="main-nav" aria-label="Primary navigation">
+            <div className="hidden md:flex items-center space-x-6">
+              {navLinks.map((link) => (
+                <NavLink
+                  key={link.path}
+                  to={link.path}
+                  className={({ isActive }) => 
+                    `${isActive ? activeClassName : inactiveClassName} font-medium text-sm uppercase tracking-wider py-2`
+                  }
+                >
+                  {link.label}
+                </NavLink>
+              ))}
+            </div>
+            <div className="md:hidden">
+              <button
+                onClick={() => setIsOpen(!isOpen)}
+                type="button"
+                className="text-brand-text-light hover:text-brand-accent focus:outline-none focus:text-brand-accent"
+                aria-label="toggle menu"
               >
-                {link.label}
-              </NavLink>
-            ))}
-          </div>
-          <div className="md:hidden">
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              type="button"
-              className="text-brand-text-light hover:text-brand-accent focus:outline-none focus:text-brand-accent"
-              aria-label="toggle menu"
-            >
-              <i className={`fas ${isOpen ? 'fa-times' : 'fa-bars'} text-2xl`}></i>
-            </button>
-          </div>
-        </nav>
-      </div>
-      {/* Mobile Menu */}
-      <div className={`${isOpen ? 'block' : 'hidden'} md:hidden mt-3 animate-fade-in`}>
-        {navLinks.map((link) => (
-          <NavLink
-            key={link.path}
-            to={link.path}
-            onClick={() => setIsOpen(false)}
-            className={({ isActive }) => 
-              `block py-2 px-4 text-sm ${isActive ? 'text-brand-accent bg-brand-primary rounded' : 'text-brand-text-light hover:bg-brand-primary hover:text-brand-accent rounded transition-colors duration-300'}`
-            }
-          >
-            {link.label}
-          </NavLink>
-        ))}
-      </div>
-    </header>
+                <i className={`fas ${isOpen ? 'fa-times' : 'fa-bars'} text-2xl`}></i>
+              </button>
+            </div>
+          </nav>
+        </div>
+      </header>
+    </>
   );
 };
 
