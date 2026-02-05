@@ -1,6 +1,5 @@
 import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import './css/styles.css';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -15,7 +14,7 @@ import TestimonialsPage from './pages/TestimonialsPage';
 import GivingPage from './pages/GivingPage';
 import NewConvertsPage from './pages/NewConvertsPage';
 
-const App: React.FC = () => (
+const App = () => (
   <HashRouter>
     <div className="app-root">
       <Navbar />
