@@ -5,9 +5,10 @@ const HomePage = () => (
     <section className="hero">
       <img src="/assets/enosh.png.jpg" alt="Enosh Generation logo" className="hero-img" />
       <div className="hero-text">
-        <h1>Enosh Generation</h1>
-        <p className="slogans">Raising a generation that knows God • Worship • Prayer • Teaching</p>
-        <p className="service-times"><strong>Service Times:</strong> Sundays 9:00 AM • Wednesdays 6:00 PM</p>
+        <h1><strong>Welcome to Enosh Generation</strong></h1>
+        <h2>Coming in the Lord's name</h2>
+        <p className="slogans">" ....then began men to call upon the name of the Lord."<br />– Genesis 4:26</p>
+        <p className="service-times"><strong>Service Times:</strong> Mondays 6:00 PM - 8:00 PM</p>
         <p>
           <Link className="btn" to="/resources">Watch Live</Link>
           <Link className="btn ghost" to="/giving" style={{marginLeft:12}}>Give & Support</Link>

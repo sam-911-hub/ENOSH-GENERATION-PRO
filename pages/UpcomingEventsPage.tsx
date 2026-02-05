@@ -7,6 +7,12 @@ import { PageRoutes, PageBackgrounds, ContactEmail } from '../constants';
 
 const events: EventItem[] = [
   {
+    category: 'Upcoming Event',
+    title: 'Intercessory Kesha',
+    details: ['Time: 8:00 PM - 5:00 AM', 'Location: Yeshua Grace Ministry Church'],
+    registrationInfo: `Contact us at ${ContactEmail} for more details.`
+  },
+  {
     category: 'Weekly Gatherings',
     title: 'Monday Fellowship',
     details: ['Every Monday: 5:00 PM - 7:30 PM', 'Location: Maximum Church Dandora'],
