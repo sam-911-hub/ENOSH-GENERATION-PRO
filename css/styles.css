@@ -160,6 +160,14 @@ p {
   box-shadow: var(--shadow-lg);
 }
 
+/* constrain hero logo to look good in two-column layout */
+.hero-img {
+  max-width: 520px;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
 .hero-text h1 {
   font-size: 42px;
   margin-bottom: 20px;
