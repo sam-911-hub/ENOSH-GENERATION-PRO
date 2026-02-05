@@ -1,6 +1,4 @@
-import React from 'react';
-
-const NewConvertsPage: React.FC = () => (
+const NewConvertsPage = () => (
   <main className="container">
     <h1>New Converts Registration</h1>
     <form className="convert-form">
