@@ -13,6 +13,7 @@ import ContactPage from './pages/ContactPage';
 import TestimonialsPage from './pages/TestimonialsPage';
 import GivingPage from './pages/GivingPage';
 import NewConvertsPage from './pages/NewConvertsPage';
+import FAQPage from './pages/FAQPage';
 
 const App = () => (
   <HashRouter>
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/testimonials" element={<TestimonialsPage />} />
           <Route path="/giving" element={<GivingPage />} />
           <Route path="/new-converts" element={<NewConvertsPage />} />
+          <Route path="/faq" element={<FAQPage />} />
         </Routes>
       </main>
       <Footer />
