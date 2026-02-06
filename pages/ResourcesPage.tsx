@@ -234,13 +234,67 @@ const ResourcesPage = () => {
                 <a className="resource-item" href="#" onClick={(e) => { e.preventDefault(); setShowSermon7(!showSermon7); }} style={{color: 'teal'}}>SPIRITS THAT HINDER PROGRESS</a>
                 {showSermon7 && (
                   <div style={{marginLeft: '20px', marginTop: '10px', padding: '15px', backgroundColor: '#f5f5f5', borderRadius: '5px', color: 'orange'}}>
-                    <p>Sometimes we deal with hindering spirits without knowing that we are actually being hindered. A hindrance spirit prevents or slows down progress and puts man at a disadvantage.</p>
-                    <p><strong>1st Thessalonians 2:18</strong> - "Satan hindered us" - Paul had a desire that wasn't carnal to come, but they were frustrated by Satan.</p>
-                    <p><strong>Four Types of Hindrances:</strong></p>
-                    <p>1. <strong>Things Done Without Faith</strong> - Everything we do out of faith is sin (Romans 14:23)</p>
-                    <p>2. <strong>Ministers as Hindrance</strong> - Hindering spirits are on doors, not windows - in the realm of opportunity</p>
-                    <p>3. <strong>Hindrance Through Love</strong> - Can come from people close to you who love you</p>
-                    <p>4. <strong>A Man's Liberty as Hindrance</strong> - Your freedom can hinder another's advancement in knowledge</p>
+                    <p><strong>SPIRITS THAT HINDER PROGRESS</strong></p>
+                    <p>Sometimes we deal with hindering spirits without knowing that we are actually being hindered.</p>
+                    <p>Some people have gone as far as building doctrines around such hindrances because they do not know what the bible says/or are not mature enough to discern.</p>
+                    <p>They mostly use the phrase "If it was of God, it would work."</p>
+                    <p>It is detrimental that we know that some of the things of God can be frustrated unless you know how to fight the hindrances. Stay with me…</p>
+                    <p>We all are aware of the verse from Romans 8;28 "And we know that all things work together for good…"</p>
+                    <p>Further, it goes by saying "…to them that love God, to them who are called according to his purpose"</p>
+                    <p>With that knowledge, we have to ask ourselves, if we are out of God's purpose, how then will something work for good? What is God's will and revelation concerning that thing?</p>
+                    <p>Let's dive in…</p>
+                    
+                    <p><strong>1st Thessalonians 2: 13 -18</strong></p>
+                    <p>13; we learn the attitude of the Thessalonians "…because, when ye received the word of God which ye heard of us, ye received it not as the word of men, but as it is in truth, the word of God, which effectually worketh also in you that believe."</p>
+                    <p>15; suffered hindrances from wicked people "…who both killed the Lord Jesus, and their own prophets, and have persecuted us; and they please not God, and are contrary to all men."</p>
+                    <p>16; the hindrance in spreading the word "…forbidding us to speak to the gentiles that they might be saved…"</p>
+                    <p>18; "….Satan hindered us…" Paul had a desire that wasn't carnal to come, but they were frustrated by Satan.</p>
+                    
+                    <p><strong>So what is a hindrance spirit?</strong></p>
+                    <p>• It is a kind that prevents or slows down the progress or accomplishment of something.</p>
+                    <p>• It puts man at a disadvantage</p>
+                    <p>• It is so hidden that one can easily fail in life and not know there is a power frustrating their progress.</p>
+                    
+                    <p>Fortunately for us, God has put a spiritual cloak in our spirit to know when we are out of time. In that way, every one who has the Spirit, can feel anytime when we are being delayed.</p>
+                    <p>In that similar sense, we should strive to leave the carnal man. 1st Corithians 2;14 "…for the natural man receiveth not the things of the Spirit of God; for they are foolishness unto him; neither can he know them, because they are spiritually discerened."</p>
+                    <p>We ought to be careful not to assume things that God is doing but you cannot justify through the word. The word of God will always align with his intention in our lives.</p>
+                    <p>1st John 5;7 "…For there are three that bear record in heaven, the Father, the Word, and the Holy Ghost; and the three are one."</p>
+                    <p>People in this generation are slowed in many ways, and they do not know why.</p>
+                    <p>We have to understand that if it is the will of God, then there will be grace & understanding for it, and there is peace for it. Isaiah 55;12 "…For ye shall go out with joy, and be led forth with peace…"</p>
+                    <p>Lets dive in and learn how hinderance spirits works in our lives…</p>
+                    
+                    <p><strong>1. THINGS DONE WITHOUT FAITH (HEBREWS 12;1)</strong></p>
+                    <p>• Let us challenge your average visual of sin. Aside from the definition you have grown up knowing of sin. Did you know that EVERYTHING we do out of faith is sin? Even eating when in doubt is sin? Check Romans 14;23 "…But whoever has doubts is condemned even if they eat, because their eating is not from faith; and everything that does not come from faith is sin."</p>
+                    <p>• Every pattern of sin, addiction and sinful struggle, is a direct result of your level of faith.</p>
+                    <p>• There are people who say that "I'm not going to do this sin" but they do it on a daily basis without even knowing it.</p>
+                    <p>• Take for instance, when Jesus said in Matthew 5;28 "…But I tell you that anyone who looks at a woman lustfully has already commited adultery with her in his heart."</p>
+                    <p>• From that we know that it is not only in doing that a sin takes place, but in thoughts too. A man who is free is in a position to frustrate the very thoughts.</p>
+                    
+                    <p><strong>2. MINISTERS AS AN HINDRANCE</strong></p>
+                    <p>• Hindering spirits are readily waiting to frustrate anybody set on the course of Gospel. 1st Corinthians 16;9 "…Because a great door for effective work has opened to me, and there are many who oppose me."</p>
+                    <p>• Hindering spirits are usually on doors, not windows.</p>
+                    <p>• They are not in the realm of access, rather, they are in the realm of opportunity to give out what you have accessed with God.</p>
+                    <p>• You could have have so much from God and be qualified but be hindered.</p>
+                    <p>• 2nd Timothy 2;15 "… Do your best to present yourself to God as one approved, a worker who does not need to be ashamed and correctly handles the word of truth."</p>
+                    <p>• We should embrace the spirit of diligence, and exert yourself to certain patterns of life.</p>
+                    <p>• In the same sense, the diligence to serve a man is also to study. Let us strive to test our faithfulness in diligent servitude. Luke 16;12 "… And if you have not been trustworthy with someone else's property, who will give you property of your own?" You can only be served as you have served.</p>
+                    <p>• How is victory guaranteed? 2nd Cornthians 2'14 "… But thanks be to God , who always leads us as captives in Christ's triumphal procession and uses us to spread the aroma of the knowledge of him everywhere."</p>
+                    <p>• We also have to know that the power that keeps us, comes and works through the place of knowledge. Check 1st Peter 1;5 "…Who through faith are shielded by God's power until the coming of the salvation that is ready to be revealed in the last time." And faith comes by hearing, "sermons and studying of scripture"</p>
+                    <p>• In conclusion, if you also don't know enough, it can hinder you. Proverbs 11;9 "…the just are delivered by knowledge."</p>
+                    <p>• As ministers of the gospel, serving in different capacities in the body of Christ, we should be careful with hindrances that come in the many forms, because as a minister, you are a door, a gateway. Check Matthew 23:13 "…Woe to you, teachers of the law and Pharisees, you hypocrites! You shut the door of the kingdom of heaven in people's faces. You yourselves do not enter, nor will you let those who enter who are trying to."</p>
+                    
+                    <p><strong>3. HINDRANCE THROUGH LOVE</strong></p>
+                    <p>• Hindrance can also come from a person whom you love or loves you. People who are close to you.</p>
+                    <p>• It can come from a friend, a girlfriend, a boyfriend, a relative, family, wife, husband. In some instances, they outright hinder you from achieving God's will and purpose in your life. Slow and derail your advancement in the Word.</p>
+                    <p>• Check Mark 8; 31-33 "…but Jesus turned and looked at his disciples, he rebuked Peter. 'Get behind me, Satan' he said. 'you do not have in mind the concerns of God, but merely human concerns."</p>
+                    <p>• Peter loved Jesus passionately, though sometimes impulsive devotion. At that moment, Jesus knew that Peter loved him. He also knew that Peter's action would derail His purpose on earth, and that was Satan working through him, using his carnal human concerns.</p>
+                    <p>• Emotions sometimes derail us from higher purpose as they are merely human. It is best we discern and be vigilant, such that through our love, or someone's else, we do not produce hindrance to anyone.</p>
+                    
+                    <p><strong>4. A MAN'S PLACE OF LIBERTY AS AN HINDRANCE</strong></p>
+                    <p>• People have different levels of faith in the walk of spiritual life. In a group, someone could have a better grasp of the knowledge in the spirit than another, potentially someone who just got recently saved. Take for instance a minister and a congregant.</p>
+                    <p>• A man's place of liberty (freedom) can hinder another man's advancement in knowledge. Check 1st Corithians 8; 10 -12 "… For if someone with a weak conscience sees you, with all your knowledge, eating in an idol's temple, won't that person be emboldened to eat what is sacrificed to idols? So this weak brother or sister, for whom Christ died, is destroyed by your knowledge. When you sin against them in this way and wund their weak conscience, you sin against Christ."</p>
+                    <p>• If you know that you are advanced in knowledge, and someone is looking up to you. Although indulging in somethings wont harm you, it will harm the person looking up to you. And that is in itself sin agnaist them and against Christ.</p>
+                    <p>• So, in summary, Romans 14;21-22 "…It is better not to eat meat or drink wine or to do anything else that will cause your brother or sister to fall. So whatever you belive about these things keep between yourself and God. Blessed is the one who does not condemn himself by what he approves."</p>
                   </div>
                 )}
               </div>
