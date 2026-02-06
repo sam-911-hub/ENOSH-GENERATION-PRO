@@ -6,6 +6,11 @@ const ResourcesPage = () => {
   const [showSermons, setShowSermons] = useState(false);
   const [showSermon1, setShowSermon1] = useState(false);
   const [showSermon2, setShowSermon2] = useState(false);
+  const [showSermon3, setShowSermon3] = useState(false);
+  const [showSermon4, setShowSermon4] = useState(false);
+  const [showSermon5, setShowSermon5] = useState(false);
+  const [showSermon6, setShowSermon6] = useState(false);
+  const [showSermon7, setShowSermon7] = useState(false);
 
   return (
     <main className="container">
@@ -74,6 +79,71 @@ const ResourcesPage = () => {
                     <p><strong>4. PRIORITIZING FUN OVER FOUNDATION</strong><br/>Mistake: Sacrificing tomorrow for temporary thrills. Wisdom: Lay a solid foundation now — in character, skills, relationships, and spiritual depth. Key Thought: Your future is the harvest of today's habits.</p>
                     <p><strong>5. THINKING YOU STILL HAVE TIME</strong><br/>Mistake: Delaying destiny. Wisdom: Greatness isn't scheduled for the future — it begins the moment you decide to grow. Key Thought: The earlier you start, the stronger you finish.</p>
                     <p><strong>FINAL CHARGE TO US:</strong> You are the future, but only if you survive the present. Rise with wisdom. Build with intention. Lead with humility. Your future isn't promised, it's prepared. Start now. Start with God.</p>
+                  </div>
+                )}
+              </div>
+              
+              <div>
+                <a className="resource-item" href="#" onClick={(e) => { e.preventDefault(); setShowSermon3(!showSermon3); }} style={{color: 'red'}}>LIFE IN AND OUT OF THE ALTAR</a>
+                {showSermon3 && (
+                  <div style={{marginLeft: '20px', marginTop: '10px', padding: '15px', backgroundColor: '#f5f5f5', borderRadius: '5px', color: 'blue'}}>
+                    <p>For a Christian, the question of "life in and out of the altar" refers to the call to live a life of sincere consecration to God that is consistent both inside the church and in the outside world.</p>
+                    <p><strong>Life on the altar</strong> represents complete surrender, devotion, and sacrifice. It signifies a life where everything—your desires, ambitions, possessions, and relationships—is consecrated to God.</p>
+                    <p><strong>Life off the altar</strong> refers to a Christian who becomes complacent and neglects their walk with God. This happens when a person becomes more preoccupied with the things of the world than with their relationship with God.</p>
+                    <p><strong>The Challenge:</strong> How to live a consistent Christian life that is "on the altar" both inside and outside the church. This is the "life of the altar and the tent," inspired by Abraham.</p>
+                  </div>
+                )}
+              </div>
+              
+              <div>
+                <a className="resource-item" href="#" onClick={(e) => { e.preventDefault(); setShowSermon4(!showSermon4); }} style={{color: 'purple'}}>DESTINY AWAITS NO ONE</a>
+                {showSermon4 && (
+                  <div style={{marginLeft: '20px', marginTop: '10px', padding: '15px', backgroundColor: '#f5f5f5', borderRadius: '5px', color: 'green'}}>
+                    <p><strong>Genesis 12:1</strong> - God never told Abram what he was to do in Canaan but he was given a promise. In a place of self-discovery, only promises are given.</p>
+                    <p><strong>Esther 4:13-16</strong> - "Go, gather together all the Jews who are in Susa, and fast for me... And if I perish, I perish."</p>
+                    <p><strong>2nd Kings 7:3-4</strong> - Four men with leprosy made a decision to face fear and terror rather than sit back and let fear devour them. "If they spare us, we live: if they kill us, then we die."</p>
+                    <p><strong>Key Point:</strong> There will be a probability to die but even so, I'll still try. Destiny awaits no one - we must move when seasons change.</p>
+                  </div>
+                )}
+              </div>
+              
+              <div>
+                <a className="resource-item" href="#" onClick={(e) => { e.preventDefault(); setShowSermon5(!showSermon5); }} style={{color: 'orange'}}>THE GOD VISION</a>
+                {showSermon5 && (
+                  <div style={{marginLeft: '20px', marginTop: '10px', padding: '15px', backgroundColor: '#f5f5f5', borderRadius: '5px', color: 'red'}}>
+                    <p>There is a place in God where our visions starts to catch up with his vision because His becomes faster. "Are you in the human dream or God dream?"</p>
+                    <p><strong>Ephesians 3:20</strong> - "according to the power that works in us" - The thing He has put in us, provokes His dream concerning us.</p>
+                    <p><strong>David's Vision:</strong> While Saul offered riches, marriage, and freedom, David's vision was on the deliverance of Israel - the bigger picture. When David asked "who is this uncircumcised..." David tapped into a covenant, connecting with the divine purpose of God.</p>
+                    <p><strong>Key Truth:</strong> The bigger vision will always answer the lesser. God can do something in our lives that even your parents will ask "Are you our child?" It is called the anointing.</p>
+                  </div>
+                )}
+              </div>
+              
+              <div>
+                <a className="resource-item" href="#" onClick={(e) => { e.preventDefault(); setShowSermon6(!showSermon6); }} style={{color: 'brown'}}>EFFECTIVE MEDITATION</a>
+                {showSermon6 && (
+                  <div style={{marginLeft: '20px', marginTop: '10px', padding: '15px', backgroundColor: '#f5f5f5', borderRadius: '5px', color: 'purple'}}>
+                    <p>Many Christians have given in to the deception of the world and meditating according to the world. Christians aren't supposed to do yoga. Biblical meditation says a mind must be filled first, not emptied.</p>
+                    <p><strong>The Thought Process:</strong> "As a man thinketh, so he is" - Proverbs 23:7. Your thought process is not where you go physically, but where your mind is.</p>
+                    <p><strong>Three Realms of Meditation:</strong></p>
+                    <p>1. <strong>Realm of Precepts</strong> - Meditating on God's law</p>
+                    <p>2. <strong>Realm of His Testimonies</strong> - Experiences we receive from God</p>
+                    <p>3. <strong>Realm of God's Works</strong> - "I remember the days of old; I meditate on all thy works"</p>
+                  </div>
+                )}
+              </div>
+              
+              <div>
+                <a className="resource-item" href="#" onClick={(e) => { e.preventDefault(); setShowSermon7(!showSermon7); }} style={{color: 'teal'}}>SPIRITS THAT HINDER PROGRESS</a>
+                {showSermon7 && (
+                  <div style={{marginLeft: '20px', marginTop: '10px', padding: '15px', backgroundColor: '#f5f5f5', borderRadius: '5px', color: 'orange'}}>
+                    <p>Sometimes we deal with hindering spirits without knowing that we are actually being hindered. A hindrance spirit prevents or slows down progress and puts man at a disadvantage.</p>
+                    <p><strong>1st Thessalonians 2:18</strong> - "Satan hindered us" - Paul had a desire that wasn't carnal to come, but they were frustrated by Satan.</p>
+                    <p><strong>Four Types of Hindrances:</strong></p>
+                    <p>1. <strong>Things Done Without Faith</strong> - Everything we do out of faith is sin (Romans 14:23)</p>
+                    <p>2. <strong>Ministers as Hindrance</strong> - Hindering spirits are on doors, not windows - in the realm of opportunity</p>
+                    <p>3. <strong>Hindrance Through Love</strong> - Can come from people close to you who love you</p>
+                    <p>4. <strong>A Man's Liberty as Hindrance</strong> - Your freedom can hinder another's advancement in knowledge</p>
                   </div>
                 )}
               </div>
