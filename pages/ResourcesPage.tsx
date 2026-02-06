@@ -192,12 +192,40 @@ const ResourcesPage = () => {
                 <a className="resource-item" href="#" onClick={(e) => { e.preventDefault(); setShowSermon6(!showSermon6); }} style={{color: 'brown'}}>EFFECTIVE MEDITATION</a>
                 {showSermon6 && (
                   <div style={{marginLeft: '20px', marginTop: '10px', padding: '15px', backgroundColor: '#f5f5f5', borderRadius: '5px', color: 'purple'}}>
-                    <p>Many Christians have given in to the deception of the world and meditating according to the world. Christians aren't supposed to do yoga. Biblical meditation says a mind must be filled first, not emptied.</p>
-                    <p><strong>The Thought Process:</strong> "As a man thinketh, so he is" - Proverbs 23:7. Your thought process is not where you go physically, but where your mind is.</p>
-                    <p><strong>Three Realms of Meditation:</strong></p>
-                    <p>1. <strong>Realm of Precepts</strong> - Meditating on God's law</p>
-                    <p>2. <strong>Realm of His Testimonies</strong> - Experiences we receive from God</p>
-                    <p>3. <strong>Realm of God's Works</strong> - "I remember the days of old; I meditate on all thy works"</p>
+                    <p><strong>INTRO</strong></p>
+                    <p>Many Christians have given in to the deception of the world and meditating according to the world. Check 1st Timothy 4:1 – "The Spirit clearly says that in latter times some will abandon the faith and follow deceiving spirits and things taught by demons"</p>
+                    <p>Christians aren't supposed to do yoga. Mostly because, meditation of the world focuses on emptying the mind. On the other hand, biblical meditation says a mind must be filled first.</p>
+                    <p>You should understand that in your realm, you are strong. Check Genesis 6:3 – "…My Spirit will not contend with humans forever, for they are mortal…" God cannot force a man to say yes…That's why He gave everyone 'Free will'</p>
+                    
+                    <p><strong>1. The thought process</strong></p>
+                    <p>"…As a man thinketh, so he is…" Proverbs 23:7</p>
+                    <p>• Your thought process is not where you go/ or physically are, but it is where your mind is.</p>
+                    <p>• Whatever you desire or seek to walk into, you have to first become it in your mind.</p>
+                    <p>• God has not designed the way of man to speak into the future, for things to come. "…things which be not as though they were." Romans 4:17</p>
+                    <p>• Any form of meditation is judged. Psalms 19:14</p>
+                    <p>• Meditation should be of understanding. Psalms 49:3</p>
+                    <p>• It is possible to meditate outside God's will.</p>
+                    <p>• The things to meditate are listed by Paul to Timothy in Philippians 4:8 "…on whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely, whatever is admirable – if anything is excellent or praiseworthy – think about such things."</p>
+                    <p>• Any man who knows to meditate from the secret of the scripture shall profit. Isaiah 48:17 "….I am the Lord thy God which teacheth thee to profit."</p>
+                    <p>• Timothy was taught the right way to meditate, because there are things you shouldn't meditate upon eg. Your problems – sickness, poverty, joblessness, loss. You should meditate on the solution.</p>
+                    <p>• Become in thought and speak yourself into the manifestation of the solution to the problem.</p>
+                    <p>• God has not designed us to meditate on a way to answer the devil. Luke 21:14-15 "…Settle it therefore in your hearts, not to meditate before what ye shall answer…" Our meditations should be fixed in the way of the truth.</p>
+                    
+                    <p><strong>2. Three realms of meditation</strong></p>
+                    
+                    <p><strong>• Realm of Precepts (Meditating on God's law)</strong></p>
+                    <p>Psalms 119:99 – "….I have more understanding than all my teachers: for thy testimonials are my meditation…."</p>
+                    <p>:100 – "…I understand more than the ancients, because I keep thy precepts…" It is important the mindset you carry right now., disciplining your spirit as you hear.</p>
+                    <p>There are people who can't sit under sound teaching. And you should also note that your spiritual age is different from your physical age. You can be young physically but spiritually, by grace, you are more advanced. And that all comes by meditating on His precepts.</p>
+                    
+                    <p><strong>• Realm of His Testimonies (experiences)</strong></p>
+                    <p>There is a realm where we are given grace to meditate experience we receive from God. Check Acts 10:10-18</p>
+                    
+                    <p><strong>• Realm of God's Works</strong></p>
+                    <p>Psalms 143:5 – "…I remember the days of old; I meditate on all thy works; I muse on the work of thy hands…"</p>
+                    <p>When you exercise your spirit to a place of total surrender, you don't create that reality but your spirit is carried to that reality.</p>
+                    <p>There is so much power when your spirit eyes can see the works of God. "…I do as I see my Father do…" John 5:19</p>
+                    <p>Anytime David's soul was in trouble, he would remember God's works…Psalms 42:5-6</p>
                   </div>
                 )}
               </div>
