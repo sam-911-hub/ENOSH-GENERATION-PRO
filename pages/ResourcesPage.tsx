@@ -60,9 +60,20 @@ const ResourcesPage = () => {
                     <p><strong>🚧 Rooted identity.</strong><br/>Is our identity in christ doubted...? Col.2.7 Rooted and built up in him, and stablished in the faith, as ye have been taught, abounding therein with thanksgiving. (ALL) How we move from brokenness, addiction and places of feeling trapped to experience God and freedom, hope and healing found in God... Is there anything you're addicted to ??</p>
                     <p><strong>🚧 Joyful services and considering others first</strong><br/>How are we motivated in putting others first and volunteers in giving back to the community...</p>
                     <p><strong>🚧 Clear purpose</strong><br/>Do you have a place in the world ?? Utilizing gifts and abilities, creating life goals, developing passion and creating eagerness to learn...</p>
+                    <p><strong>🎤🎤🎤🎤👇👇👇</strong></p>
                     <p>There is a realm that men commune with God called the realm of "dependency knowledge." A realm where all they know about God is what they were TOLD about Him. It is all theoretical and not experiential.</p>
                     <p>When the Israelites were besieged by the midianites they were operating at a level of "dependency," that's why Gideon said, "Where are all the miracles our Fathers told us about? where is the God they told us brought wonders to Egypt." They hadn't yet experienced God at a PERSONAL level. They had a serious dependency syndrome.</p>
                     <p>Listen child of God, stories ABOUT God can excite you, revelations from other individuals that encountered Him can inspire you but ONLY a personal experience with the Lord can transform you!</p>
+                    <hr style={{margin: '20px 0', border: '1px solid #ccc'}} />
+                    <p><strong>THE DANGEROUS & COSTLY MISTAKES THAT THE MAJORITY OF THIS GENERATION ARE MAKING TODAY</strong></p>
+                    <p><em>By: Enosh Generation Teaching</em></p>
+                    <p>Let's be honest — Our generation is bold, intelligent, creative, and filled with untapped potential. But greatness requires wisdom, discipline, and intentional living. If these mistakes go unchecked, they can sabotage futures before they even begin.</p>
+                    <p><strong>1. LIVING FOR THE INTERNET, NOT FOR IMPACT</strong><br/>Mistake: Chasing trends instead of transformation. Wisdom: Purpose outlives popularity. Build a life that leaves footprints, not just impressions. Key Thought: Legacy matters more than likes.</p>
+                    <p><strong>2. MOCKING THE PROCESS, BUT DESIRING THE RESULT</strong><br/>Mistake: Entitlement without effort. Wisdom: You can't harvest where you haven't sown. Embrace the grind — it's the gate to greatness. Key Thought: Desire must be matched by discipline.</p>
+                    <p><strong>3. REPLACING HARD WORK WITH AESTHETICS</strong><br/>Mistake: Valuing appearance over substance. Wisdom: Invest your time in developing skills, building assets, and adding value. Key Thought: Image fades, value endures.</p>
+                    <p><strong>4. PRIORITIZING FUN OVER FOUNDATION</strong><br/>Mistake: Sacrificing tomorrow for temporary thrills. Wisdom: Lay a solid foundation now — in character, skills, relationships, and spiritual depth. Key Thought: Your future is the harvest of today's habits.</p>
+                    <p><strong>5. THINKING YOU STILL HAVE TIME</strong><br/>Mistake: Delaying destiny. Wisdom: Greatness isn't scheduled for the future — it begins the moment you decide to grow. Key Thought: The earlier you start, the stronger you finish.</p>
+                    <p><strong>FINAL CHARGE TO US:</strong> You are the future, but only if you survive the present. Rise with wisdom. Build with intention. Lead with humility. Your future isn't promised, it's prepared. Start now. Start with God.</p>
                   </div>
                 )}
               </div>
