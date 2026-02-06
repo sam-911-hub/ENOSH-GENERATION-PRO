@@ -87,10 +87,31 @@ const ResourcesPage = () => {
                 <a className="resource-item" href="#" onClick={(e) => { e.preventDefault(); setShowSermon3(!showSermon3); }} style={{color: 'red'}}>LIFE IN AND OUT OF THE ALTAR</a>
                 {showSermon3 && (
                   <div style={{marginLeft: '20px', marginTop: '10px', padding: '15px', backgroundColor: '#f5f5f5', borderRadius: '5px', color: 'blue'}}>
-                    <p>For a Christian, the question of "life in and out of the altar" refers to the call to live a life of sincere consecration to God that is consistent both inside the church and in the outside world.</p>
-                    <p><strong>Life on the altar</strong> represents complete surrender, devotion, and sacrifice. It signifies a life where everything—your desires, ambitions, possessions, and relationships—is consecrated to God.</p>
-                    <p><strong>Life off the altar</strong> refers to a Christian who becomes complacent and neglects their walk with God. This happens when a person becomes more preoccupied with the things of the world than with their relationship with God.</p>
-                    <p><strong>The Challenge:</strong> How to live a consistent Christian life that is "on the altar" both inside and outside the church. This is the "life of the altar and the tent," inspired by Abraham.</p>
+                    <p>For a Christian, the question of "life in and out of the altar" refers to the call to live a life of sincere consecration to God that is consistent both inside the church and in the outside world. It contrasts the performance of religious duties with a genuine, transformed, and daily relationship with God. This concept is often explained by the apostle Paul's call to be a "living sacrifice" in Romans 12:1.</p>
+                    
+                    <p><strong>The theological meaning of the altar</strong></p>
+                    <p><strong>Old Testament:</strong> The physical altar was a place of ritual sacrifice, an offering, and a point of meeting between God and man. The fire on the altar was to be kept burning continuously (Leviticus 6:13), symbolizing constant worship.</p>
+                    <p><strong>New Testament:</strong> The ultimate altar is the cross of Calvary, where Jesus made the once-and-for-all, perfect sacrifice for humanity. As a result, Christians no longer need a physical altar for sacrifice.</p>
+                    <p><strong>Today:</strong> Your body is considered the temple of the Holy Spirit and your heart is a personal, spiritual altar. The offerings are no longer animals but your very life, presented as a living sacrifice.</p>
+                    
+                    <p><strong>Life on the altar</strong></p>
+                    <p>Life on the altar represents a state of complete surrender, devotion, and sacrifice. It signifies a life where everything—your desires, ambitions, possessions, and relationships—is consecrated to God.</p>
+                    <p><strong>Consecration:</strong> A life on the altar is the result of a profound personal encounter with God, leading to the spontaneous consecration of your entire being to Him.</p>
+                    <p><strong>Prayer and worship:</strong> It is a life rooted in constant fellowship with God. It involves a daily, personal "altar" of prayer and worship, where you talk to God rather than just about Him.</p>
+                    <p><strong>Provision:</strong> By yielding everything to God, you trust Him to provide what you need for life, rather than holding back out of fear of loss.</p>
+                    
+                    <p><strong>Life off the altar</strong></p>
+                    <p>A life off the altar refers to a Christian who becomes complacent and neglects their walk with God.</p>
+                    <p><strong>Worldly focus:</strong> This happens when a person becomes more preoccupied with the things of the world than with their relationship with God. The spiritual fire goes out, and their priorities shift away from Christ.</p>
+                    <p><strong>Double life:</strong> A person living off the altar often leads a double life, being one person in church and another in the world. Their inner conviction no longer matches their outward actions.</p>
+                    <p><strong>Consequences:</strong> This can lead to a state of spiritual powerlessness and worldliness. The Bible warns that leaving the place of consecration brings danger to your family, your flesh, and your future.</p>
+                    
+                    <p><strong>Challenges and the call to consistency</strong></p>
+                    <p>The key question is how to live a consistent Christian life that is "on the altar" both inside and outside the church. This is often described as living the "life of the altar and the tent," inspired by Abraham.</p>
+                    <p><strong>Altar and tent:</strong> The altar is for God, while the tent is for your earthly needs as a sojourner. What God gives back to you from the altar—your resources, relationships, and even your health—is to be used for His purpose while you are in the world.</p>
+                    <p><strong>Surrendering struggles:</strong> When you face difficulties, you can bring your "broken things" and struggles to the altar. Instead of being burdened, you lay them before the Lord to receive renewal, hope, and promise.</p>
+                    <p><strong>The struggle with worldliness:</strong> It is a constant battle to remain consecrated. The tendency is to "crawl off the altar" and reclaim areas of your life that you have surrendered to God, especially when faced with worldly temptations.</p>
+                    <p><strong>Transformation:</strong> The practical answer is not just to perform religious actions but to allow God's Spirit to continually transform your mind and heart through His Word. This creates a life of worship that is not limited to a church building but is expressed in every aspect of your daily life.</p>
                   </div>
                 )}
               </div>
