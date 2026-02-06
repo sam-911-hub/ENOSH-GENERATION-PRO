@@ -121,9 +121,28 @@ const ResourcesPage = () => {
                 {showSermon4 && (
                   <div style={{marginLeft: '20px', marginTop: '10px', padding: '15px', backgroundColor: '#f5f5f5', borderRadius: '5px', color: 'green'}}>
                     <p><strong>Genesis 12:1</strong> - God never told Abram what he was to do in Canaan but he was given a promise. In a place of self-discovery, only promises are given.</p>
-                    <p><strong>Esther 4:13-16</strong> - "Go, gather together all the Jews who are in Susa, and fast for me... And if I perish, I perish."</p>
-                    <p><strong>2nd Kings 7:3-4</strong> - Four men with leprosy made a decision to face fear and terror rather than sit back and let fear devour them. "If they spare us, we live: if they kill us, then we die."</p>
-                    <p><strong>Key Point:</strong> There will be a probability to die but even so, I'll still try. Destiny awaits no one - we must move when seasons change.</p>
+                    <p>Going to church, fellowships and events doesn't guarantee a blessing.</p>
+                    
+                    <p><strong>Verse 7&8</strong> - Self-discovery starts by changing the altar (your heart). Check Hebrew 8:10-11</p>
+                    
+                    <p><strong>Genesis 10:</strong> God never told Abraham there was a famine. Learn to move if season has ended. God expected Abraham to use his mind and find a way out. Seasons of God should not pass a man without its manifestation.</p>
+                    
+                    <p><strong>Esther 4:13-16</strong></p>
+                    <p>Esther was a Jewish queen in the Persian court. Her uncle Mordecai urged her to save her people from a plot to exterminate them. Remaining silent doesn't save people.</p>
+                    <p>Listen to Esther's response: "Go, gather together all the Jews who are in Susa, and fast for me. Do not eat or drink for three days, night and day. I and my attendants will fast as you do. When this is done, I will go to the king, even though it is against the law. And if I perish, I perish."</p>
+                    
+                    <p><strong>Why do we have delays in our prayers?</strong></p>
+                    <p>When 2nd Corinthians 1:20 says "For no matter how many promises God has made, they are 'yes' in Christ. And so through Him the 'Amen' is spoken to us to the glory of God."</p>
+                    <p>Thing is, some people will die asking and never realize there is a seeking level <em>Zeteo</em> in Greek. We should get locked in a revelation to a point of knowing why a prayer wasn't answered.</p>
+                    <p>For instance, the children of Israel had only achieved a certain level <em>Aiteo</em> in Greek which is the asking level. The secret is not in asking.</p>
+                    <p>At a point in our lives, we have to forget ourselves and see our future generations being saved and delivered. Because God reveals things to us that He may redeem through us.</p>
+                    
+                    <p><strong>2nd Kings 7:3-4</strong></p>
+                    <p>A story of the four men with leprosy. They made a decision to face fear and terror rather than sit back and let fear devour them.</p>
+                    <p>"If they spare us, we live: if they kill us, then we die."</p>
+                    
+                    <p><strong>Psalms 91:5</strong> - "You will not fear the terror by night, nor the arrow that flies by day."</p>
+                    <p><strong>Key Truth:</strong> There will be a probability to die but even so, I'll still try. <strong>DESTINY AWAITS NO ONE.</strong></p>
                   </div>
                 )}
               </div>
