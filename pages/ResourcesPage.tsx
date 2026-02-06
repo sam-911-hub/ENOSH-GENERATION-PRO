@@ -12,25 +12,25 @@ const ResourcesPage = () => {
       <h1>Resources</h1>
       <div className="resources-list">
         <div>
-          <a className="resource-item" href="#" onClick={(e) => { e.preventDefault(); setShowLiveServices(!showLiveServices); }}>Live Services & Links</a>
+          <a className="resource-item" href="#" onClick={(e) => { e.preventDefault(); setShowLiveServices(!showLiveServices); }} style={{color: 'black'}}>Live Services & Links</a>
           {showLiveServices && (
             <div className="social-links" style={{marginLeft: '20px', marginTop: '10px'}}>
-              <a className="resource-item" href="https://www.facebook.com/people/ENOSH-Generation/100091299983773/" target="_blank" rel="noopener noreferrer">Facebook</a>
-              <a className="resource-item" href="https://www.instagram.com/enosh.generation/?hl=en" target="_blank" rel="noopener noreferrer">Instagram</a>
-              <a className="resource-item" href="https://www.youtube.com/@enosh.generation" target="_blank" rel="noopener noreferrer">YouTube</a>
-              <a className="resource-item" href="https://www.tiktok.com/@enosh.generation" target="_blank" rel="noopener noreferrer">TikTok</a>
+              <a className="resource-item" href="https://www.facebook.com/people/ENOSH-Generation/100091299983773/" target="_blank" rel="noopener noreferrer" style={{color: 'blue'}}>Facebook</a>
+              <a className="resource-item" href="https://www.instagram.com/enosh.generation/?hl=en" target="_blank" rel="noopener noreferrer" style={{color: 'green'}}>Instagram</a>
+              <a className="resource-item" href="https://www.youtube.com/@enosh.generation" target="_blank" rel="noopener noreferrer" style={{color: 'red'}}>YouTube</a>
+              <a className="resource-item" href="https://www.tiktok.com/@enosh.generation" target="_blank" rel="noopener noreferrer" style={{color: 'purple'}}>TikTok</a>
             </div>
           )}
         </div>
         
         <div>
-          <a className="resource-item" href="#" onClick={(e) => { e.preventDefault(); setShowSermons(!showSermons); }}>Sermons</a>
+          <a className="resource-item" href="#" onClick={(e) => { e.preventDefault(); setShowSermons(!showSermons); }} style={{color: 'black'}}>Sermons</a>
           {showSermons && (
             <div style={{marginLeft: '20px', marginTop: '10px'}}>
               <div>
-                <a className="resource-item" href="#" onClick={(e) => { e.preventDefault(); setShowSermon1(!showSermon1); }}>A LIFE WORTHY THE CALLING</a>
+                <a className="resource-item" href="#" onClick={(e) => { e.preventDefault(); setShowSermon1(!showSermon1); }} style={{color: 'blue'}}>A LIFE WORTHY THE CALLING</a>
                 {showSermon1 && (
-                  <div style={{marginLeft: '20px', marginTop: '10px', padding: '15px', backgroundColor: '#f5f5f5', borderRadius: '5px'}}>
+                  <div style={{marginLeft: '20px', marginTop: '10px', padding: '15px', backgroundColor: '#f5f5f5', borderRadius: '5px', color: 'red'}}>
                     <p><strong>By: Apostle Khen</strong></p>
                     <p><strong>Reference: Ephesians 4:1-10</strong></p>
                     <p>Paul writes this letter to the Ephesians pleading them to live a life worth the calling they bear.</p>
@@ -46,9 +46,9 @@ const ResourcesPage = () => {
               </div>
               
               <div>
-                <a className="resource-item" href="#" onClick={(e) => { e.preventDefault(); setShowSermon2(!showSermon2); }}>Gauges of Transformation</a>
+                <a className="resource-item" href="#" onClick={(e) => { e.preventDefault(); setShowSermon2(!showSermon2); }} style={{color: 'green'}}>Gauges of Transformation</a>
                 {showSermon2 && (
-                  <div style={{marginLeft: '20px', marginTop: '10px', padding: '15px', backgroundColor: '#f5f5f5', borderRadius: '5px'}}>
+                  <div style={{marginLeft: '20px', marginTop: '10px', padding: '15px', backgroundColor: '#f5f5f5', borderRadius: '5px', color: 'purple'}}>
                     <p><strong>By: Minister Andrew</strong></p>
                     <p>Gauge is just a measure of something, how deep, speed of anything that's not stagnant.</p>
                     <p>Spiritually we're destined for greater things that we'll manifest only at a certain capacity.</p>
@@ -70,11 +70,11 @@ const ResourcesPage = () => {
           )}
         </div>
         
-        <a className="resource-item" href="#">Morning Dew Devotions</a>
-        <a className="resource-item" href="#">Divinity Meets Humanity - Travailleurs</a>
-        <a className="resource-item" href="#">Enosh Towdah</a>
-        <Link className="resource-item" to="/new-converts">New Converts Registration Form</Link>
-        <Link className="resource-item" to="/events">Events</Link>
+        <a className="resource-item" href="#" style={{color: 'black'}}>Morning Dew Devotions</a>
+        <a className="resource-item" href="#" style={{color: 'black'}}>Divinity Meets Humanity - Travailleurs</a>
+        <a className="resource-item" href="#" style={{color: 'black'}}>Enosh Towdah</a>
+        <Link className="resource-item" to="/new-converts" style={{color: 'black'}}>New Converts Registration Form</Link>
+        <Link className="resource-item" to="/events" style={{color: 'black'}}>Events</Link>
       </div>
     </main>
   );
