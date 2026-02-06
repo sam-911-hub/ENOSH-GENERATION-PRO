@@ -26,7 +26,7 @@ const MinistriesPage = () => {
           <h3 onClick={() => setShowIntercessory(!showIntercessory)} style={{cursor: 'pointer'}}>Intercessory Ministry</h3>
           {showIntercessory && (
             <div style={{textAlign: 'center', marginTop: '10px'}}>
-              <img src="/assets/intercessory.jpg" alt="Intercessory" style={{width: '100px', height: '100px', borderRadius: '50%', objectFit: 'cover'}} />
+              <img src="/assets/Intercessory.jpg" alt="Intercessory" style={{width: '100px', height: '100px', borderRadius: '50%', objectFit: 'cover'}} />
             </div>
           )}
           <p>Standing in prayer and spiritual covering for the church and community.</p>
@@ -56,7 +56,7 @@ const MinistriesPage = () => {
           <h3 onClick={() => setShowWomens(!showWomens)} style={{cursor: 'pointer'}}>Women Affairs Ministry</h3>
           {showWomens && (
             <div style={{textAlign: 'center', marginTop: '10px'}}>
-              <img src="/assets/womens affairs.jpg" alt="Women Affairs" style={{width: '100px', height: '100px', borderRadius: '50%', objectFit: 'cover'}} />
+              <img src="/assets/women's ministry.jpg" alt="Women Affairs" style={{width: '100px', height: '100px', borderRadius: '50%', objectFit: 'cover'}} />
             </div>
           )}
           <p>Equipping and empowering women through mentorship and events.</p>
