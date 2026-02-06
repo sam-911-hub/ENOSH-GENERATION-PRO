@@ -6,7 +6,7 @@ const HomePage = () => (
       <img src="/assets/enosh.png.jpg" alt="Enosh Generation logo" className="hero-img" />
       <div className="hero-text">
         <h1><strong>Welcome to Enosh Generation</strong></h1>
-        <h2>Coming in the Lord's name</h2>
+        <h2>Call unto God</h2>
         <p className="slogans">" ....then began men to call upon the name of the Lord."<br />– Genesis 4:26</p>
         <p className="service-times"><strong>Service Times:</strong> Mondays 6:00 PM - 8:00 PM</p>
         <p>
