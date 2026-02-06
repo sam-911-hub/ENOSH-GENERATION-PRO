@@ -151,10 +151,39 @@ const ResourcesPage = () => {
                 <a className="resource-item" href="#" onClick={(e) => { e.preventDefault(); setShowSermon5(!showSermon5); }} style={{color: 'orange'}}>THE GOD VISION</a>
                 {showSermon5 && (
                   <div style={{marginLeft: '20px', marginTop: '10px', padding: '15px', backgroundColor: '#f5f5f5', borderRadius: '5px', color: 'red'}}>
-                    <p>There is a place in God where our visions starts to catch up with his vision because His becomes faster. "Are you in the human dream or God dream?"</p>
-                    <p><strong>Ephesians 3:20</strong> - "according to the power that works in us" - The thing He has put in us, provokes His dream concerning us.</p>
-                    <p><strong>David's Vision:</strong> While Saul offered riches, marriage, and freedom, David's vision was on the deliverance of Israel - the bigger picture. When David asked "who is this uncircumcised..." David tapped into a covenant, connecting with the divine purpose of God.</p>
-                    <p><strong>Key Truth:</strong> The bigger vision will always answer the lesser. God can do something in our lives that even your parents will ask "Are you our child?" It is called the anointing.</p>
+                    <p><strong>Introduction:</strong> There is a place in God where our visions starts to catch up with his vision because His becomes faster. We should ask ourselves this question – "Are you in the human dream or God dream?", "What is God's dream about you?"</p>
+                    
+                    <p>Sometimes, we invest too much time in prayer asking for very small things that sometimes God doesn't know how to fit into it. Sometimes, He is quiet, not because He doesn't love you, but because He is still trying to figure out how he will fit in your small dream.</p>
+                    
+                    <p><strong>Ephesians 3:20</strong></p>
+                    <p>1. "…according to the power that works in us." – The thing He has put in us, provokes His dream concerning us.</p>
+                    <p>2. "…dare to ask." – the things you fear to ask of Him because they scare you.</p>
+                    
+                    <p><strong>1st Samuel 16:13-14</strong></p>
+                    <p>1. The day the Spirit of God settled on David, God had exchanged authority in the Spirit but Saul maintained the Office.</p>
+                    <p>2. God can judge a matter now, and its manifestation could take years. "Ecclesiastes 8:11 …because the sentence against evil work is not done speedily."</p>
+                    <p>3. Also, Hannaniah was judged but he died six months later.</p>
+                    <p>4. In the Story of David, most people fail to see what stayed in his heart: "….I always sought that the presence of God may return to Israel." He understood the power of dwelling in the presence of the Lord.</p>
+                    
+                    <p><strong>1st Samuel 16:16-23</strong></p>
+                    <p>They knew if a certain spirit hits a king, its only a man with a worshipping hand that can deliver him. David gained favor in the eyes of Saul. And whenever Saul was invaded with the evil spirit, David would play the harp and Saul would be refreshed.</p>
+                    
+                    <p><strong>1st Samuel 17:25 (Vision of man to man)</strong></p>
+                    <p>We see the vision of man towards another man. The verse outlines Saul's vision for David. He promises him great riches, his daughter for marriage, and his house's exemption in Israel.</p>
+                    
+                    <p><strong>1st Samuel 17:26-58 (Vision of a man with the heart of God)</strong></p>
+                    <p>• He didn't look for riches as a reward.</p>
+                    <p>• He wasn't looking for a wife.</p>
+                    <p>• He wasn't looking for freedom of his father's house.</p>
+                    <p>• His vision was on the deliverance of Israel, the bigger picture.</p>
+                    <p>• When David asked "…who is this uncircumcised…" David tapped into a covenant, connecting with the divine purpose of God.</p>
+                    <p>• Even when David was at Saul's, Saul only knew him because he played harps. Saul only thought David was a boy who played harps, no more, no less.</p>
+                    <p>• But when it came to the point of proving David, Saul clothed him with his own armor but David removed them.</p>
+                    <p>• Later on when David says "…you come to me with a sword, a spear, and a javelin. But I come to you in the name of the Lord of Hosts, the God of the armies of Israel whom you have defied." He maintains the covenant of God.</p>
+                    <p>• From then onwards, David was another man. Verse 55</p>
+                    
+                    <p><strong>Conclusion:</strong> God can do something in our lives that even your parents will ask "Are you our child?" It is called the anointing. "When anointing shall come upon you, you shall become another man".</p>
+                    <p><strong>Key Truth:</strong> The bigger vision will always answer the lesser.</p>
                   </div>
                 )}
               </div>
