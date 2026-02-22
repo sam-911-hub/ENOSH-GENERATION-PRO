@@ -11,6 +11,7 @@ const ResourcesPage = () => {
   const [showSermon5, setShowSermon5] = useState(false);
   const [showSermon6, setShowSermon6] = useState(false);
   const [showSermon7, setShowSermon7] = useState(false);
+  const [showSermon8, setShowSermon8] = useState(false);
 
   return (
     <main className="container">
@@ -295,6 +296,49 @@ const ResourcesPage = () => {
                     <p>• A man's place of liberty (freedom) can hinder another man's advancement in knowledge. Check 1st Corithians 8; 10 -12 "… For if someone with a weak conscience sees you, with all your knowledge, eating in an idol's temple, won't that person be emboldened to eat what is sacrificed to idols? So this weak brother or sister, for whom Christ died, is destroyed by your knowledge. When you sin against them in this way and wund their weak conscience, you sin against Christ."</p>
                     <p>• If you know that you are advanced in knowledge, and someone is looking up to you. Although indulging in somethings wont harm you, it will harm the person looking up to you. And that is in itself sin agnaist them and against Christ.</p>
                     <p>• So, in summary, Romans 14;21-22 "…It is better not to eat meat or drink wine or to do anything else that will cause your brother or sister to fall. So whatever you belive about these things keep between yourself and God. Blessed is the one who does not condemn himself by what he approves."</p>
+                  </div>
+                )}
+              </div>
+              
+              <div>
+                <a className="resource-item" href="#" onClick={(e) => { e.preventDefault(); setShowSermon8(!showSermon8); }} style={{color: 'darkblue'}}>DIVINITY MEETS HUMANITY – THE ART OF INTERCESSION</a>
+                {showSermon8 && (
+                  <div style={{marginLeft: '20px', marginTop: '10px', padding: '15px', backgroundColor: '#f5f5f5', borderRadius: '5px', color: 'darkred'}}>
+                    <p><strong>DIVINITY MEETS HUMANITY – THE ART OF INTERCESSION</strong></p>
+                    
+                    <p><strong>INTERCESSION</strong> - The art of precise words that move the heart of God.</p>
+                    <p>• Intercession in biblical times was practiced by pleading for mercy with tears and sackcloth in order for God to change His mind concern an individual or a situation.</p>
+                    
+                    <p><strong>Characteristics of an intercessor</strong></p>
+                    <p>• An intercessor does not need to see. They usually operate with the sensitivity of the heart.</p>
+                    <p>• An intercessor does not pray to see what God will do, they pray because they know what God is doing. "…it is well with my soul."</p>
+                    <p>• A true intercessor does not aim to approve him/herself. They aim to approve God.</p>
+                    <p>• A true intercessor possesses wisdom and understanding, to align with God's will. Job 28.28 "….And to man he said, Behold, the fear of the Lord, that is wisdom, And to depart from evil is understanding."</p>
+                    
+                    <p><strong>The wisdom of intercession by God's will</strong></p>
+                    <p>• By meditation, an intercessor gets to the point of wisdom. And from the point of knowledge and wisdom, can intercession be made.</p>
+                    <p>• To know what is from God, it must be good and perfect. James 1:17 " …Every good gift and every perfect gift is from above, and comes down from the Father of lights, with whom there is no variation or shadow of turning."</p>
+                    <p>• We don't judge anything from its gooses but from its perfection. Because many atimes, the devil comes with evil behind good.</p>
+                    
+                    <p><strong>The art of intercession.</strong></p>
+                    <p>• The bible teaches us that we have a chief intercessor, Christ. Hebrews 6:20 " ….where the forerunner has entered for us, even Jesus, having become high priest for ever according to the order of Melchizedek…"</p>
+                    <p>• In Christ Jesus, and when we know His mind, intercession can be made. Remember when Isaiah prophesied in the book of Isaiah 53:11 " …He shall see the travail of His soul, and be satisfied. By His knowledge my righteous Servant shall justify many, For He shall bear their iniquities…."</p>
+                    <p>• Knowing that, it is standard that we can only intercede and make intercession in the mind of Christ, and not in your emotions.</p>
+                    <p>• Because, how else can you pray and intercede for someone when you don't know what God thinks about him/her? Job 32:7-9 "….I said, age should speak, and multitude of years should teach wisdom. But there is a spirit in man, and the breath of the Almighty gives him understanding. Great men are not always wise, nor do the aged always understand justice…."</p>
+                    <p>• And thus in 1st Corinthians 2:16 "….for who has known the mind of the Lord thate may instruct him? But we have the mind of Christ…." Also Isaiah 40;13</p>
+                    <p>• An intercessor must understand the thoughts, feelings and purposes of God, to design the counsels and judgements of the Spirit before you stand in the place of intercession.</p>
+                    <p>• And by that, an intercessor should first seek God's heart. Acts 17:27 "….so that they should seek the Lord, in the hope that they might grope for him and find him though he is not far from each one of us…."</p>
+                    <p>• This is the mind of Christ regarding the lost. Matthew 9:36,37 "…. But when He saw the multitudes, He was moved with compassion for them, because they were weary and scattered, like sheep having no shepherd. Then He said to His disciples, 'the harvest truly is plentiful, but the labourers are few.'"</p>
+                    
+                    <p><strong>The efficacy of an intercessor ( What makes you a worthy labourer?)</strong></p>
+                    <p>• Humility – Ego can be used to attack you when you redeem.</p>
+                    <p>• Empathy – Be in their shoes first before you judge their situation.</p>
+                    <p>• Compassion</p>
+                    
+                    <p><strong>How do Intercessors become great?</strong></p>
+                    <p>• Job 42:10 "….And the Lord restored Job's losses when he prayed for his friends. Indeed the Lord gave Job twice as much as he had done before…."</p>
+                    
+                    <p>From above, we can conclude that as an intercessor, the only way to intercede for another, is by interceding in the mind of Christ. And when that is done, solutions to things, even the es concerning you may come. Because when Job interceded for his friends, his losses were restored, and at the same time, his friends were accepted despite their folly.</p>
                   </div>
                 )}
               </div>
